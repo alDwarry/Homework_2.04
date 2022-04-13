@@ -1,187 +1,191 @@
-.flex {
-display: flex;
+.general_container{
+	height: 2800px;
+	width: 1100px;
+	margin: 0 auto;
+	border: 1px solid transpond;
 }
 
-.top1 {
-height: 30px;
-width: display;
-padding: 2px 2px;
-background-color: lightgray;
-justify-content: space-around;
-border: 1px ;
-border-color black;
-align-items: center;
+.flex{
+	display: flex;
+}
 
+.top1{
+	height: 30px;
+	width: display;
+	padding: 2px 2px;
+	background-color: lightgray;
+	justify-content: space-around;
+	border: 1px solid transpond;
+	align-items: center;
 }
 
 .span_top1{
-padding: 3px;
-align-content: center;
+	padding: 3px;
+	align-content: center;
 }
 
 .a{
-text-decoration: none;
-color: black;
+	text-decoration: none;
+	color: black;
 }
 
 .justify {
-justify-content: space-around;
+	justify-content: space-around;
 }
 
 .search{
-height: 25px;
-width: 150px;
-background-color: transpond;
-border: 3px solid blue;
+	height: 25px;
+	width: 150px;
+	background-color: transpond;
+	border: 3px solid blue;
 }
 
 .schedule{
-text-wrap: wrap;
-height: 100%;
-width: 120px;
+	text-wrap: wrap;
+	height: 100%;
+	width: 120px;
 }
 
 .header{
-align-items: center;
+	align-items: center;
 }
 
 .buttons1{
-justify-content: center;
-height: 40px;
-width: display;
+	justify-content: center;
+	height: 40px;
+	width: 100%;
 }
 
 .button{
-height: 30px;
-width: 350px;
-background-color: blue;
-border: 1px solid white;
-text-align: center;
-vertical-align: middle;
-font-weight:bold;
-color: white;
-font-size: 20px;
-padding: 10px;
+	height: 30px;
+	width: 300px;
+	background-color: blue;
+	border: 1px solid transpond;
+	text-align: center;
+	vertical-align: middle;
+	font-weight:bold;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
 }
 
 .banner{
-height: 300px;
-width: display;
-justify-content: center;
-padding: 40px;
-text-align: center;
-}
+	height: 250px;
+	width: display;
+	justify-content: center;
+	padding: 40px;
+	margin-top: 20px;
+	text-align: center;
+	border: 1px solid transpond;
+	}
 
 .buttons2{
-justify-content: center;
-height: 30px;
-width: display;
-padding: 40px;
+	justify-content: center;
+	height: 30px;
+	width: display;
+	padding: 40px;
 }
 
 .button2{
-height: 25px;
-width: 150px;
-background-color: darkblue;
-border: 1px solid white;
-text-align: center;
-vertical-align: middle;
-font-weight: bold;
-color: white;
-font-size: 20px;
+	height: 25px;
+	width: 150px;
+	background-color: darkblue;
+	border: 1px solid white;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
 }
 
 .items{
-height: 300px;
-width: display;
-justify-content: center;
-padding: 2px;
+	height: 300px;
+	width: display;
+	justify-content: center;
+	padding: 2px;
 }
 
 .item{
-height: 100%;
-width: 15%;
-padding-left: 10px;
-justify-content: center;
-border: 2px solid transpond;
+	height: 100%;
+	width: 15%;
+	padding-left: 10px;
+	justify-content: center;
+	border: 2px solid transpond;
 }
 
 .advertising{
-height: 550px;
-width: display;
-flex-wrap: wrap;
-justify-content: space-around;
-padding-top: 15px;
-margin-top: 30px;
+	height: 550px;
+	width: display;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 15px;
+	margin-top: 30px;
 }
 
 .mini_adv{
-height: 45%;
-width: 30%;
-border-radius: 5px;
-object-fit: cover;
-       
+	height: 45%;
+	width: 30%;
+	border-radius: 5px;
+	object-fit: cover;
 }
 
 .img_adv{
-height: 100%;
-width: 100%;
-border: 3px solid transpond;
-border-radius: 5px;
-object-fit: cover;
-       
+	height: 100%;
+	width: 100%;
+	border: 3px solid transpond;
+	border-radius: 5px;
+	object-fit: cover;
 }
 
 .brands{
-height: 150px;
-width: display;
-margin: 20px;
-border: 1px solid blue;
-border-radius: 4px;
+	height: 150px;
+	width: display;
+	margin: 20px;
+	border: 1px solid blue;
+	border-radius: 4px;
 }
 
 .img_test{
-object-fit: cover;
-width: 100%;
-height: 100%;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
 
-
-.text {
-padding-left: 150px;
-padding-right: 250px;
+.text{
+	padding-left: 150px;
+	padding-right: 250px;
 }
-
 
 .footer{
-height: 450px;
-width: display;
-background-color: lightgray;
-margin-top: 50px;
+	height: 500px;
+	width: display;
+	background-color: lightgray;
+	margin-top: 50px;
+	padding-left: 10px;
 }
 
 .block_footer{
-height: 99%;
-width: 24%;
-border: 1px solid transpond;
+	height: 99%;
+	width: 24%;
+	border: 1px solid transpond;
 }
 
-li {
-list-style-type: none; 
+.li_foot{
+	list-style-type: none; 
 }
 
 .footer1{
-line-height: 1.8;
-padding: 5px;
+	line-height: 1.8;
+	padding: 5px;
 }
 
 .footer2{
-line-height: 1.8;
-padding: 40px;
+	line-height: 1.8;
+	padding: 40px;
 }
 
 .a_color_style{
-color: black;
+	color: black;
 }
 
 
